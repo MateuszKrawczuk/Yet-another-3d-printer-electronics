@@ -1,0 +1,1777 @@
+EESchema Schematic File Version 2
+LIBS:Yet-another-3d-printer-electronics-rescue
+LIBS:nxp_armmcu
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:ftdi
+LIBS:Yet-another-3d-printer-electronics-cache
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 2 4
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L CONN_02X03 P?
+U 1 1 58B11737
+P 1700 7200
+F 0 "P?" H 1700 7400 50  0000 C CNN
+F 1 "X-microsteps" H 1700 7000 50  0000 C CNN
+F 2 "Socket_Strips:Socket_Strip_Straight_2x03_Pitch2.54mm" H 1700 6000 50  0001 C CNN
+F 3 "" H 1700 6000 50  0000 C CNN
+	1    1700 7200
+	1    0    0    -1  
+$EndComp
+Text Label 2100 7300 0    60   ~ 0
+X-MS1
+Text Label 2100 7200 0    60   ~ 0
+X-MS2
+Text Label 2100 7100 0    60   ~ 0
+X-MS3
+$Comp
+L VCC #PWR?
+U 1 1 58B11741
+P 1375 7050
+F 0 "#PWR?" H 1375 6900 50  0001 C CNN
+F 1 "VCC" H 1375 7200 50  0000 C CNN
+F 2 "" H 1375 7050 50  0000 C CNN
+F 3 "" H 1375 7050 50  0000 C CNN
+	1    1375 7050
+	1    0    0    -1  
+$EndComp
+$Comp
+L R 100K?
+U 1 1 58B11747
+P 2000 6950
+F 0 "100K?" V 2080 6950 50  0000 C CNN
+F 1 "R" V 2000 6950 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 1930 6950 50  0001 C CNN
+F 3 "" H 2000 6950 50  0000 C CNN
+	1    2000 6950
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 58B1174E
+P 2000 6750
+F 0 "#PWR?" H 2000 6500 50  0001 C CNN
+F 1 "GND" H 2000 6600 50  0000 C CNN
+F 2 "" H 2000 6750 50  0000 C CNN
+F 3 "" H 2000 6750 50  0000 C CNN
+	1    2000 6750
+	-1   0    0    1   
+$EndComp
+$Comp
+L CONN_02X03 P?
+U 1 1 58B11754
+P 2925 7200
+F 0 "P?" H 2925 7400 50  0000 C CNN
+F 1 "Y-microsteps" H 2925 7000 50  0000 C CNN
+F 2 "Socket_Strips:Socket_Strip_Straight_2x03_Pitch2.54mm" H 2925 6000 50  0001 C CNN
+F 3 "" H 2925 6000 50  0000 C CNN
+	1    2925 7200
+	1    0    0    -1  
+$EndComp
+Text Label 3325 7300 0    60   ~ 0
+Y-MS1
+Text Label 3325 7200 0    60   ~ 0
+Y-MS2
+Text Label 3325 7100 0    60   ~ 0
+Y-MS3
+$Comp
+L VCC #PWR?
+U 1 1 58B1175E
+P 2600 7050
+F 0 "#PWR?" H 2600 6900 50  0001 C CNN
+F 1 "VCC" H 2600 7200 50  0000 C CNN
+F 2 "" H 2600 7050 50  0000 C CNN
+F 3 "" H 2600 7050 50  0000 C CNN
+	1    2600 7050
+	1    0    0    -1  
+$EndComp
+$Comp
+L R 100K?
+U 1 1 58B11764
+P 3225 6950
+F 0 "100K?" V 3305 6950 50  0000 C CNN
+F 1 "R" V 3225 6950 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 3155 6950 50  0001 C CNN
+F 3 "" H 3225 6950 50  0000 C CNN
+	1    3225 6950
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 58B1176B
+P 3225 6750
+F 0 "#PWR?" H 3225 6500 50  0001 C CNN
+F 1 "GND" H 3225 6600 50  0000 C CNN
+F 2 "" H 3225 6750 50  0000 C CNN
+F 3 "" H 3225 6750 50  0000 C CNN
+	1    3225 6750
+	-1   0    0    1   
+$EndComp
+$Comp
+L CONN_02X03 P?
+U 1 1 58B11771
+P 4150 7200
+F 0 "P?" H 4150 7400 50  0000 C CNN
+F 1 "Z-microsteps" H 4150 7000 50  0000 C CNN
+F 2 "Socket_Strips:Socket_Strip_Straight_2x03_Pitch2.54mm" H 4150 6000 50  0001 C CNN
+F 3 "" H 4150 6000 50  0000 C CNN
+	1    4150 7200
+	1    0    0    -1  
+$EndComp
+Text Label 4550 7300 0    60   ~ 0
+Z-MS1
+Text Label 4550 7200 0    60   ~ 0
+Z-MS2
+Text Label 4550 7100 0    60   ~ 0
+Z-MS3
+$Comp
+L VCC #PWR?
+U 1 1 58B1177B
+P 3825 7050
+F 0 "#PWR?" H 3825 6900 50  0001 C CNN
+F 1 "VCC" H 3825 7200 50  0000 C CNN
+F 2 "" H 3825 7050 50  0000 C CNN
+F 3 "" H 3825 7050 50  0000 C CNN
+	1    3825 7050
+	1    0    0    -1  
+$EndComp
+$Comp
+L R 100K?
+U 1 1 58B11781
+P 4450 6950
+F 0 "100K?" V 4530 6950 50  0000 C CNN
+F 1 "R" V 4450 6950 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 4380 6950 50  0001 C CNN
+F 3 "" H 4450 6950 50  0000 C CNN
+	1    4450 6950
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 58B11788
+P 4450 6750
+F 0 "#PWR?" H 4450 6500 50  0001 C CNN
+F 1 "GND" H 4450 6600 50  0000 C CNN
+F 2 "" H 4450 6750 50  0000 C CNN
+F 3 "" H 4450 6750 50  0000 C CNN
+	1    4450 6750
+	-1   0    0    1   
+$EndComp
+$Comp
+L CONN_02X03 P?
+U 1 1 58B1178E
+P 5425 7200
+F 0 "P?" H 5425 7400 50  0000 C CNN
+F 1 "E-microsteps" H 5425 7000 50  0000 C CNN
+F 2 "Socket_Strips:Socket_Strip_Straight_2x03_Pitch2.54mm" H 5425 6000 50  0001 C CNN
+F 3 "" H 5425 6000 50  0000 C CNN
+	1    5425 7200
+	1    0    0    -1  
+$EndComp
+Text Label 5825 7300 0    60   ~ 0
+E-MS1
+Text Label 5825 7200 0    60   ~ 0
+E-MS2
+Text Label 5825 7100 0    60   ~ 0
+E-MS3
+$Comp
+L VCC #PWR?
+U 1 1 58B11798
+P 5100 7050
+F 0 "#PWR?" H 5100 6900 50  0001 C CNN
+F 1 "VCC" H 5100 7200 50  0000 C CNN
+F 2 "" H 5100 7050 50  0000 C CNN
+F 3 "" H 5100 7050 50  0000 C CNN
+	1    5100 7050
+	1    0    0    -1  
+$EndComp
+$Comp
+L R 100K?
+U 1 1 58B1179E
+P 5725 6950
+F 0 "100K?" V 5805 6950 50  0000 C CNN
+F 1 "R" V 5725 6950 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 5655 6950 50  0001 C CNN
+F 3 "" H 5725 6950 50  0000 C CNN
+	1    5725 6950
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 58B117A5
+P 5725 6750
+F 0 "#PWR?" H 5725 6500 50  0001 C CNN
+F 1 "GND" H 5725 6600 50  0000 C CNN
+F 2 "" H 5725 6750 50  0000 C CNN
+F 3 "" H 5725 6750 50  0000 C CNN
+	1    5725 6750
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	1450 7100 1375 7100
+Wire Wire Line
+	1375 7050 1375 7100
+Wire Wire Line
+	1375 7100 1375 7200
+Wire Wire Line
+	1375 7200 1375 7300
+Wire Wire Line
+	1375 7200 1450 7200
+Connection ~ 1375 7100
+Wire Wire Line
+	1375 7300 1450 7300
+Connection ~ 1375 7200
+Wire Wire Line
+	2100 7200 1950 7200
+Wire Wire Line
+	2100 7300 1950 7300
+Wire Wire Line
+	1950 7100 2000 7100
+Wire Wire Line
+	2000 7100 2100 7100
+Connection ~ 2000 7100
+Wire Wire Line
+	2000 6800 2000 6750
+Wire Wire Line
+	2675 7100 2600 7100
+Wire Wire Line
+	2600 7050 2600 7100
+Wire Wire Line
+	2600 7100 2600 7200
+Wire Wire Line
+	2600 7200 2600 7300
+Wire Wire Line
+	2600 7200 2675 7200
+Connection ~ 2600 7100
+Wire Wire Line
+	2600 7300 2675 7300
+Connection ~ 2600 7200
+Wire Wire Line
+	3325 7200 3175 7200
+Wire Wire Line
+	3325 7300 3175 7300
+Wire Wire Line
+	3175 7100 3225 7100
+Wire Wire Line
+	3225 7100 3325 7100
+Connection ~ 3225 7100
+Wire Wire Line
+	3225 6800 3225 6750
+Wire Wire Line
+	3900 7100 3825 7100
+Wire Wire Line
+	3825 7050 3825 7100
+Wire Wire Line
+	3825 7100 3825 7200
+Wire Wire Line
+	3825 7200 3825 7300
+Wire Wire Line
+	3825 7200 3900 7200
+Connection ~ 3825 7100
+Wire Wire Line
+	3825 7300 3900 7300
+Connection ~ 3825 7200
+Wire Wire Line
+	4550 7200 4400 7200
+Wire Wire Line
+	4550 7300 4400 7300
+Wire Wire Line
+	4400 7100 4450 7100
+Wire Wire Line
+	4450 7100 4550 7100
+Connection ~ 4450 7100
+Wire Wire Line
+	4450 6800 4450 6750
+Wire Wire Line
+	5175 7100 5100 7100
+Wire Wire Line
+	5100 7050 5100 7100
+Wire Wire Line
+	5100 7100 5100 7200
+Wire Wire Line
+	5100 7200 5100 7300
+Wire Wire Line
+	5100 7200 5175 7200
+Connection ~ 5100 7100
+Wire Wire Line
+	5100 7300 5175 7300
+Connection ~ 5100 7200
+Wire Wire Line
+	5825 7200 5675 7200
+Wire Wire Line
+	5825 7300 5675 7300
+Wire Wire Line
+	5675 7100 5725 7100
+Wire Wire Line
+	5725 7100 5825 7100
+Connection ~ 5725 7100
+Wire Wire Line
+	5725 6800 5725 6750
+Connection ~ 7225 3975
+Wire Wire Line
+	7225 3650 7225 3675
+$Comp
+L GND #PWR?
+U 1 1 58B12629
+P 7225 3650
+F 0 "#PWR?" H 7225 3400 50  0001 C CNN
+F 1 "GND" H 7225 3500 50  0000 C CNN
+F 2 "" H 7225 3650 50  0000 C CNN
+F 3 "" H 7225 3650 50  0000 C CNN
+	1    7225 3650
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	7225 1275 7225 1300
+$Comp
+L GND #PWR?
+U 1 1 58B12630
+P 7225 1275
+F 0 "#PWR?" H 7225 1025 50  0001 C CNN
+F 1 "GND" H 7225 1125 50  0000 C CNN
+F 2 "" H 7225 1275 50  0000 C CNN
+F 3 "" H 7225 1275 50  0000 C CNN
+	1    7225 1275
+	-1   0    0    1   
+$EndComp
+Connection ~ 7225 1600
+Connection ~ 3025 1600
+Connection ~ 3025 3825
+Wire Wire Line
+	3025 3500 3025 3525
+$Comp
+L GND #PWR?
+U 1 1 58B1263A
+P 3025 3500
+F 0 "#PWR?" H 3025 3250 50  0001 C CNN
+F 1 "GND" H 3025 3350 50  0000 C CNN
+F 2 "" H 3025 3500 50  0000 C CNN
+F 3 "" H 3025 3500 50  0000 C CNN
+	1    3025 3500
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	3025 1275 3025 1300
+$Comp
+L GND #PWR?
+U 1 1 58B12641
+P 3025 1275
+F 0 "#PWR?" H 3025 1025 50  0001 C CNN
+F 1 "GND" H 3025 1125 50  0000 C CNN
+F 2 "" H 3025 1275 50  0000 C CNN
+F 3 "" H 3025 1275 50  0000 C CNN
+	1    3025 1275
+	-1   0    0    1   
+$EndComp
+$Comp
+L CP C?
+U 1 1 58B12647
+P 3025 1450
+F 0 "C?" H 3050 1550 50  0000 L CNN
+F 1 "CP" H 3050 1350 50  0000 L CNN
+F 2 "Capacitors_THT:CP_Radial_D5.0mm_P2.00mm" H 3063 1300 50  0001 C CNN
+F 3 "" H 3025 1450 50  0000 C CNN
+	1    3025 1450
+	-1   0    0    1   
+$EndComp
+$Comp
+L CP C?
+U 1 1 58B1264E
+P 7225 3825
+F 0 "C?" H 7250 3925 50  0000 L CNN
+F 1 "CP" H 7250 3725 50  0000 L CNN
+F 2 "Capacitors_THT:CP_Radial_D5.0mm_P2.00mm" H 7263 3675 50  0001 C CNN
+F 3 "" H 7225 3825 50  0000 C CNN
+	1    7225 3825
+	-1   0    0    1   
+$EndComp
+$Comp
+L CP C?
+U 1 1 58B12655
+P 7225 1450
+F 0 "C?" H 7250 1550 50  0000 L CNN
+F 1 "CP" H 7250 1350 50  0000 L CNN
+F 2 "Capacitors_THT:CP_Radial_D5.0mm_P2.00mm" H 7263 1300 50  0001 C CNN
+F 3 "" H 7225 1450 50  0000 C CNN
+	1    7225 1450
+	-1   0    0    1   
+$EndComp
+$Comp
+L CP C?
+U 1 1 58B1265C
+P 3025 3675
+F 0 "C?" H 3050 3775 50  0000 L CNN
+F 1 "CP" H 3050 3575 50  0000 L CNN
+F 2 "Capacitors_THT:CP_Radial_D5.0mm_P2.00mm" H 3063 3525 50  0001 C CNN
+F 3 "" H 3025 3675 50  0000 C CNN
+	1    3025 3675
+	-1   0    0    1   
+$EndComp
+Connection ~ 1650 1600
+Wire Wire Line
+	1575 1600 1650 1600
+Wire Wire Line
+	1650 1600 1700 1600
+Wire Wire Line
+	1650 1250 1650 1300
+$Comp
+L VCC #PWR?
+U 1 1 58B1266E
+P 1650 1250
+F 0 "#PWR?" H 1650 1100 50  0001 C CNN
+F 1 "VCC" H 1650 1400 50  0000 C CNN
+F 2 "" H 1650 1250 50  0000 C CNN
+F 3 "" H 1650 1250 50  0000 C CNN
+	1    1650 1250
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R?
+U 1 1 58B12674
+P 1650 1450
+F 0 "R?" V 1730 1450 50  0000 C CNN
+F 1 "10K" V 1650 1450 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 1580 1450 50  0001 C CNN
+F 3 "" H 1650 1450 50  0000 C CNN
+	1    1650 1450
+	1    0    0    -1  
+$EndComp
+Connection ~ 5850 3975
+Wire Wire Line
+	5775 3975 5850 3975
+Wire Wire Line
+	5850 3975 5900 3975
+Wire Wire Line
+	5850 3625 5850 3675
+$Comp
+L VCC #PWR?
+U 1 1 58B1267E
+P 5850 3625
+F 0 "#PWR?" H 5850 3475 50  0001 C CNN
+F 1 "VCC" H 5850 3775 50  0000 C CNN
+F 2 "" H 5850 3625 50  0000 C CNN
+F 3 "" H 5850 3625 50  0000 C CNN
+	1    5850 3625
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R?
+U 1 1 58B12684
+P 5850 3825
+F 0 "R?" V 5930 3825 50  0000 C CNN
+F 1 "10K" V 5850 3825 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 5780 3825 50  0001 C CNN
+F 3 "" H 5850 3825 50  0000 C CNN
+	1    5850 3825
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5850 4625 5900 4625
+Wire Wire Line
+	5850 4525 5850 4625
+Wire Wire Line
+	5900 4525 5850 4525
+Wire Wire Line
+	1650 2250 1700 2250
+Wire Wire Line
+	1650 2150 1650 2250
+Wire Wire Line
+	1700 2150 1650 2150
+Wire Wire Line
+	5850 2250 5900 2250
+Wire Wire Line
+	5850 2150 5850 2250
+Wire Wire Line
+	5900 2150 5850 2150
+Wire Wire Line
+	1650 4475 1700 4475
+Wire Wire Line
+	1650 4375 1650 4475
+Wire Wire Line
+	1700 4375 1650 4375
+Connection ~ 1650 3825
+Wire Wire Line
+	1575 3825 1650 3825
+Wire Wire Line
+	1650 3825 1700 3825
+Wire Wire Line
+	1650 3475 1650 3525
+$Comp
+L VCC #PWR?
+U 1 1 58B1269B
+P 1650 3475
+F 0 "#PWR?" H 1650 3325 50  0001 C CNN
+F 1 "VCC" H 1650 3625 50  0000 C CNN
+F 2 "" H 1650 3475 50  0000 C CNN
+F 3 "" H 1650 3475 50  0000 C CNN
+	1    1650 3475
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R?
+U 1 1 58B126A1
+P 1650 3675
+F 0 "R?" V 1730 3675 50  0000 C CNN
+F 1 "10K" V 1650 3675 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 1580 3675 50  0001 C CNN
+F 3 "" H 1650 3675 50  0000 C CNN
+	1    1650 3675
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5825 1250 5825 1300
+$Comp
+L VCC #PWR?
+U 1 1 58B126A9
+P 5825 1250
+F 0 "#PWR?" H 5825 1100 50  0001 C CNN
+F 1 "VCC" H 5825 1400 50  0000 C CNN
+F 2 "" H 5825 1250 50  0000 C CNN
+F 3 "" H 5825 1250 50  0000 C CNN
+	1    5825 1250
+	1    0    0    -1  
+$EndComp
+Connection ~ 5825 1600
+$Comp
+L R R?
+U 1 1 58B126B0
+P 5825 1450
+F 0 "R?" V 5905 1450 50  0000 C CNN
+F 1 "10K" V 5825 1450 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 5755 1450 50  0001 C CNN
+F 3 "" H 5825 1450 50  0000 C CNN
+	1    5825 1450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5900 1600 5825 1600
+Wire Wire Line
+	5825 1600 5725 1600
+Wire Wire Line
+	8525 3500 8500 3500
+$Comp
+L GND #PWR?
+U 1 1 58B126BB
+P 8525 3500
+F 0 "#PWR?" H 8525 3250 50  0001 C CNN
+F 1 "GND" H 8525 3350 50  0000 C CNN
+F 2 "" H 8525 3500 50  0000 C CNN
+F 3 "" H 8525 3500 50  0000 C CNN
+	1    8525 3500
+	0    -1   -1   0   
+$EndComp
+Connection ~ 8100 3500
+Wire Wire Line
+	8200 3500 8100 3500
+Wire Wire Line
+	8100 3425 8100 3500
+Wire Wire Line
+	8100 3500 8100 3675
+Wire Wire Line
+	7250 4725 7200 4725
+Wire Wire Line
+	7250 4825 7200 4825
+Wire Wire Line
+	7250 4075 7200 4075
+Connection ~ 8100 5000
+Wire Wire Line
+	8100 5000 8100 5050
+Connection ~ 8225 5000
+Wire Wire Line
+	8475 5000 8475 4925
+Connection ~ 7975 5000
+Wire Wire Line
+	8225 5000 8225 4925
+Wire Wire Line
+	7975 5000 7975 4925
+Wire Wire Line
+	7725 5000 7975 5000
+Wire Wire Line
+	7975 5000 8100 5000
+Wire Wire Line
+	8100 5000 8225 5000
+Wire Wire Line
+	8225 5000 8475 5000
+Wire Wire Line
+	7725 4925 7725 5000
+Connection ~ 8475 4525
+Wire Wire Line
+	8475 3975 8475 4525
+Wire Wire Line
+	8475 4525 8475 4625
+Connection ~ 8225 4425
+Wire Wire Line
+	8225 3975 8225 4425
+Wire Wire Line
+	8225 4425 8225 4625
+Connection ~ 7975 4325
+Wire Wire Line
+	7975 3975 7975 4325
+Wire Wire Line
+	7975 4325 7975 4625
+Wire Wire Line
+	7200 3975 7225 3975
+Wire Wire Line
+	7225 3975 7250 3975
+Connection ~ 8100 3675
+Connection ~ 7975 3675
+Connection ~ 8225 3675
+Wire Wire Line
+	7725 3675 7975 3675
+Wire Wire Line
+	7975 3675 8100 3675
+Wire Wire Line
+	8100 3675 8225 3675
+Wire Wire Line
+	8225 3675 8475 3675
+Connection ~ 7725 4225
+Wire Wire Line
+	7725 3975 7725 4225
+Wire Wire Line
+	7725 4225 7725 4625
+Wire Wire Line
+	8700 4525 8475 4525
+Wire Wire Line
+	8475 4525 7200 4525
+Wire Wire Line
+	7200 4425 8225 4425
+Wire Wire Line
+	8225 4425 8700 4425
+Wire Wire Line
+	7200 4325 7975 4325
+Wire Wire Line
+	7975 4325 8700 4325
+Wire Wire Line
+	7200 4225 7725 4225
+Wire Wire Line
+	7725 4225 8700 4225
+$Comp
+L C C?
+U 1 1 58B126E1
+P 8350 3500
+F 0 "C?" H 8375 3600 50  0000 L CNN
+F 1 "10u/30V" H 8375 3400 50  0000 L CNN
+F 2 "Capacitors_SMD:C_1206_HandSoldering" H 8388 3350 50  0001 C CNN
+F 3 "" H 8350 3500 50  0000 C CNN
+	1    8350 3500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L VCC #PWR?
+U 1 1 58B126E8
+P 7250 4725
+F 0 "#PWR?" H 7250 4575 50  0001 C CNN
+F 1 "VCC" V 7175 4850 50  0000 C CNN
+F 2 "" H 7250 4725 50  0000 C CNN
+F 3 "" H 7250 4725 50  0000 C CNN
+	1    7250 4725
+	0    1    1    0   
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 58B126EE
+P 7250 4825
+F 0 "#PWR?" H 7250 4575 50  0001 C CNN
+F 1 "GND" H 7250 4675 50  0000 C CNN
+F 2 "" H 7250 4825 50  0000 C CNN
+F 3 "" H 7250 4825 50  0000 C CNN
+	1    7250 4825
+	0    -1   -1   0   
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 58B126F4
+P 7250 4075
+F 0 "#PWR?" H 7250 3825 50  0001 C CNN
+F 1 "GND" H 7250 3925 50  0000 C CNN
+F 2 "" H 7250 4075 50  0000 C CNN
+F 3 "" H 7250 4075 50  0000 C CNN
+	1    7250 4075
+	0    -1   -1   0   
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 58B126FA
+P 8100 5050
+F 0 "#PWR?" H 8100 4800 50  0001 C CNN
+F 1 "GND" H 8100 4900 50  0000 C CNN
+F 2 "" H 8100 5050 50  0000 C CNN
+F 3 "" H 8100 5050 50  0000 C CNN
+	1    8100 5050
+	1    0    0    -1  
+$EndComp
+$Comp
+L +24V #PWR?
+U 1 1 58B12700
+P 7250 3975
+F 0 "#PWR?" H 7250 3825 50  0001 C CNN
+F 1 "+24V" H 7250 4115 50  0000 C CNN
+F 2 "" H 7250 3975 50  0000 C CNN
+F 3 "" H 7250 3975 50  0000 C CNN
+	1    7250 3975
+	0    1    1    0   
+$EndComp
+$Comp
+L +24V #PWR?
+U 1 1 58B12706
+P 8100 3425
+F 0 "#PWR?" H 8100 3275 50  0001 C CNN
+F 1 "+24V" H 8100 3565 50  0000 C CNN
+F 2 "" H 8100 3425 50  0000 C CNN
+F 3 "" H 8100 3425 50  0000 C CNN
+	1    8100 3425
+	1    0    0    -1  
+$EndComp
+$Comp
+L D_Schottky D?
+U 1 1 58B1270C
+P 7725 4775
+F 0 "D?" H 7725 4875 50  0000 C CNN
+F 1 "D_Schottky" H 7725 4675 50  0000 C CNN
+F 2 "Yet-another-3d-printer-electronics:DO-214AC(SMA)" H 7725 4775 50  0001 C CNN
+F 3 "" H 7725 4775 50  0000 C CNN
+	1    7725 4775
+	0    1    1    0   
+$EndComp
+$Comp
+L D_Schottky D?
+U 1 1 58B12713
+P 8475 4775
+F 0 "D?" H 8475 4875 50  0000 C CNN
+F 1 "D_Schottky" H 8475 4675 50  0000 C CNN
+F 2 "Yet-another-3d-printer-electronics:DO-214AC(SMA)" H 8475 4775 50  0001 C CNN
+F 3 "" H 8475 4775 50  0000 C CNN
+	1    8475 4775
+	0    1    1    0   
+$EndComp
+$Comp
+L D_Schottky D?
+U 1 1 58B1271A
+P 8225 4775
+F 0 "D?" H 8225 4875 50  0000 C CNN
+F 1 "D_Schottky" H 8225 4675 50  0000 C CNN
+F 2 "Yet-another-3d-printer-electronics:DO-214AC(SMA)" H 8225 4775 50  0001 C CNN
+F 3 "" H 8225 4775 50  0000 C CNN
+	1    8225 4775
+	0    1    1    0   
+$EndComp
+$Comp
+L D_Schottky D?
+U 1 1 58B12721
+P 7975 4775
+F 0 "D?" H 7975 4875 50  0000 C CNN
+F 1 "D_Schottky" H 7975 4675 50  0000 C CNN
+F 2 "Yet-another-3d-printer-electronics:DO-214AC(SMA)" H 7975 4775 50  0001 C CNN
+F 3 "" H 7975 4775 50  0000 C CNN
+	1    7975 4775
+	0    1    1    0   
+$EndComp
+$Comp
+L D_Schottky D?
+U 1 1 58B12728
+P 8475 3825
+F 0 "D?" H 8475 3925 50  0000 C CNN
+F 1 "D_Schottky" H 8475 3725 50  0000 C CNN
+F 2 "Yet-another-3d-printer-electronics:DO-214AC(SMA)" H 8475 3825 50  0001 C CNN
+F 3 "" H 8475 3825 50  0000 C CNN
+	1    8475 3825
+	0    1    1    0   
+$EndComp
+$Comp
+L D_Schottky D?
+U 1 1 58B1272F
+P 8225 3825
+F 0 "D?" H 8225 3925 50  0000 C CNN
+F 1 "D_Schottky" H 8225 3725 50  0000 C CNN
+F 2 "Yet-another-3d-printer-electronics:DO-214AC(SMA)" H 8225 3825 50  0001 C CNN
+F 3 "" H 8225 3825 50  0000 C CNN
+	1    8225 3825
+	0    1    1    0   
+$EndComp
+$Comp
+L D_Schottky D?
+U 1 1 58B12736
+P 7975 3825
+F 0 "D?" H 7975 3925 50  0000 C CNN
+F 1 "D_Schottky" H 7975 3725 50  0000 C CNN
+F 2 "Yet-another-3d-printer-electronics:DO-214AC(SMA)" H 7975 3825 50  0001 C CNN
+F 3 "" H 7975 3825 50  0000 C CNN
+	1    7975 3825
+	0    1    1    0   
+$EndComp
+$Comp
+L D_Schottky D?
+U 1 1 58B1273D
+P 7725 3825
+F 0 "D?" H 7725 3925 50  0000 C CNN
+F 1 "D_Schottky" H 7725 3725 50  0000 C CNN
+F 2 "Yet-another-3d-printer-electronics:DO-214AC(SMA)" H 7725 3825 50  0001 C CNN
+F 3 "" H 7725 3825 50  0000 C CNN
+	1    7725 3825
+	0    1    1    0   
+$EndComp
+$Comp
+L CONN_01X04 P?
+U 1 1 58B12744
+P 8900 4375
+F 0 "P?" H 8900 4625 50  0000 C CNN
+F 1 "Z-Motor" V 9000 4375 50  0000 C CNN
+F 2 "Connectors_JST:JST_XH_B04B-XH-A_04x2.50mm_Straight" H 8900 4375 50  0001 C CNN
+F 3 "" H 8900 4375 50  0000 C CNN
+	1    8900 4375
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8525 1125 8500 1125
+$Comp
+L GND #PWR?
+U 1 1 58B1274C
+P 8525 1125
+F 0 "#PWR?" H 8525 875 50  0001 C CNN
+F 1 "GND" H 8525 975 50  0000 C CNN
+F 2 "" H 8525 1125 50  0000 C CNN
+F 3 "" H 8525 1125 50  0000 C CNN
+	1    8525 1125
+	0    -1   -1   0   
+$EndComp
+Connection ~ 8100 1125
+Wire Wire Line
+	8200 1125 8100 1125
+Wire Wire Line
+	8100 1050 8100 1125
+Wire Wire Line
+	8100 1125 8100 1300
+Wire Wire Line
+	7250 2350 7200 2350
+Wire Wire Line
+	7250 2450 7200 2450
+Wire Wire Line
+	7250 1700 7200 1700
+Connection ~ 8100 2625
+Wire Wire Line
+	8100 2625 8100 2675
+Connection ~ 8225 2625
+Wire Wire Line
+	8475 2625 8475 2550
+Connection ~ 7975 2625
+Wire Wire Line
+	8225 2625 8225 2550
+Wire Wire Line
+	7975 2625 7975 2550
+Wire Wire Line
+	7725 2625 7975 2625
+Wire Wire Line
+	7975 2625 8100 2625
+Wire Wire Line
+	8100 2625 8225 2625
+Wire Wire Line
+	8225 2625 8475 2625
+Wire Wire Line
+	7725 2550 7725 2625
+Connection ~ 8475 2150
+Wire Wire Line
+	8475 1600 8475 2150
+Wire Wire Line
+	8475 2150 8475 2250
+Connection ~ 8225 2050
+Wire Wire Line
+	8225 1600 8225 2050
+Wire Wire Line
+	8225 2050 8225 2250
+Connection ~ 7975 1950
+Wire Wire Line
+	7975 1600 7975 1950
+Wire Wire Line
+	7975 1950 7975 2250
+Wire Wire Line
+	7200 1600 7225 1600
+Wire Wire Line
+	7225 1600 7250 1600
+Connection ~ 8100 1300
+Connection ~ 7975 1300
+Connection ~ 8225 1300
+Wire Wire Line
+	7725 1300 7975 1300
+Wire Wire Line
+	7975 1300 8100 1300
+Wire Wire Line
+	8100 1300 8225 1300
+Wire Wire Line
+	8225 1300 8475 1300
+Connection ~ 7725 1850
+Wire Wire Line
+	7725 1600 7725 1850
+Wire Wire Line
+	7725 1850 7725 2250
+Wire Wire Line
+	8700 2150 8475 2150
+Wire Wire Line
+	8475 2150 7200 2150
+Wire Wire Line
+	7200 2050 8225 2050
+Wire Wire Line
+	8225 2050 8700 2050
+Wire Wire Line
+	7200 1950 7975 1950
+Wire Wire Line
+	7975 1950 8700 1950
+Wire Wire Line
+	7200 1850 7725 1850
+Wire Wire Line
+	7725 1850 8700 1850
+$Comp
+L C C?
+U 1 1 58B12772
+P 8350 1125
+F 0 "C?" H 8375 1225 50  0000 L CNN
+F 1 "10u/30V" H 8375 1025 50  0000 L CNN
+F 2 "Capacitors_SMD:C_1206_HandSoldering" H 8388 975 50  0001 C CNN
+F 3 "" H 8350 1125 50  0000 C CNN
+	1    8350 1125
+	0    -1   -1   0   
+$EndComp
+$Comp
+L VCC #PWR?
+U 1 1 58B12779
+P 7250 2350
+F 0 "#PWR?" H 7250 2200 50  0001 C CNN
+F 1 "VCC" V 7175 2475 50  0000 C CNN
+F 2 "" H 7250 2350 50  0000 C CNN
+F 3 "" H 7250 2350 50  0000 C CNN
+	1    7250 2350
+	0    1    1    0   
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 58B1277F
+P 7250 2450
+F 0 "#PWR?" H 7250 2200 50  0001 C CNN
+F 1 "GND" H 7250 2300 50  0000 C CNN
+F 2 "" H 7250 2450 50  0000 C CNN
+F 3 "" H 7250 2450 50  0000 C CNN
+	1    7250 2450
+	0    -1   -1   0   
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 58B12785
+P 7250 1700
+F 0 "#PWR?" H 7250 1450 50  0001 C CNN
+F 1 "GND" H 7250 1550 50  0000 C CNN
+F 2 "" H 7250 1700 50  0000 C CNN
+F 3 "" H 7250 1700 50  0000 C CNN
+	1    7250 1700
+	0    -1   -1   0   
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 58B1278B
+P 8100 2675
+F 0 "#PWR?" H 8100 2425 50  0001 C CNN
+F 1 "GND" H 8100 2525 50  0000 C CNN
+F 2 "" H 8100 2675 50  0000 C CNN
+F 3 "" H 8100 2675 50  0000 C CNN
+	1    8100 2675
+	1    0    0    -1  
+$EndComp
+$Comp
+L +24V #PWR?
+U 1 1 58B12791
+P 7250 1600
+F 0 "#PWR?" H 7250 1450 50  0001 C CNN
+F 1 "+24V" H 7250 1740 50  0000 C CNN
+F 2 "" H 7250 1600 50  0000 C CNN
+F 3 "" H 7250 1600 50  0000 C CNN
+	1    7250 1600
+	0    1    1    0   
+$EndComp
+$Comp
+L +24V #PWR?
+U 1 1 58B12797
+P 8100 1050
+F 0 "#PWR?" H 8100 900 50  0001 C CNN
+F 1 "+24V" H 8100 1190 50  0000 C CNN
+F 2 "" H 8100 1050 50  0000 C CNN
+F 3 "" H 8100 1050 50  0000 C CNN
+	1    8100 1050
+	1    0    0    -1  
+$EndComp
+$Comp
+L D_Schottky D?
+U 1 1 58B1279D
+P 7725 2400
+F 0 "D?" H 7725 2500 50  0000 C CNN
+F 1 "D_Schottky" H 7725 2300 50  0000 C CNN
+F 2 "Yet-another-3d-printer-electronics:DO-214AC(SMA)" H 7725 2400 50  0001 C CNN
+F 3 "" H 7725 2400 50  0000 C CNN
+	1    7725 2400
+	0    1    1    0   
+$EndComp
+$Comp
+L D_Schottky D?
+U 1 1 58B127A4
+P 8475 2400
+F 0 "D?" H 8475 2500 50  0000 C CNN
+F 1 "D_Schottky" H 8475 2300 50  0000 C CNN
+F 2 "Yet-another-3d-printer-electronics:DO-214AC(SMA)" H 8475 2400 50  0001 C CNN
+F 3 "" H 8475 2400 50  0000 C CNN
+	1    8475 2400
+	0    1    1    0   
+$EndComp
+$Comp
+L D_Schottky D?
+U 1 1 58B127AB
+P 8225 2400
+F 0 "D?" H 8225 2500 50  0000 C CNN
+F 1 "D_Schottky" H 8225 2300 50  0000 C CNN
+F 2 "Yet-another-3d-printer-electronics:DO-214AC(SMA)" H 8225 2400 50  0001 C CNN
+F 3 "" H 8225 2400 50  0000 C CNN
+	1    8225 2400
+	0    1    1    0   
+$EndComp
+$Comp
+L D_Schottky D?
+U 1 1 58B127B2
+P 7975 2400
+F 0 "D?" H 7975 2500 50  0000 C CNN
+F 1 "D_Schottky" H 7975 2300 50  0000 C CNN
+F 2 "Yet-another-3d-printer-electronics:DO-214AC(SMA)" H 7975 2400 50  0001 C CNN
+F 3 "" H 7975 2400 50  0000 C CNN
+	1    7975 2400
+	0    1    1    0   
+$EndComp
+$Comp
+L D_Schottky D?
+U 1 1 58B127B9
+P 8475 1450
+F 0 "D?" H 8475 1550 50  0000 C CNN
+F 1 "D_Schottky" H 8475 1350 50  0000 C CNN
+F 2 "Yet-another-3d-printer-electronics:DO-214AC(SMA)" H 8475 1450 50  0001 C CNN
+F 3 "" H 8475 1450 50  0000 C CNN
+	1    8475 1450
+	0    1    1    0   
+$EndComp
+$Comp
+L D_Schottky D?
+U 1 1 58B127C0
+P 8225 1450
+F 0 "D?" H 8225 1550 50  0000 C CNN
+F 1 "D_Schottky" H 8225 1350 50  0000 C CNN
+F 2 "Yet-another-3d-printer-electronics:DO-214AC(SMA)" H 8225 1450 50  0001 C CNN
+F 3 "" H 8225 1450 50  0000 C CNN
+	1    8225 1450
+	0    1    1    0   
+$EndComp
+$Comp
+L D_Schottky D?
+U 1 1 58B127C7
+P 7975 1450
+F 0 "D?" H 7975 1550 50  0000 C CNN
+F 1 "D_Schottky" H 7975 1350 50  0000 C CNN
+F 2 "Yet-another-3d-printer-electronics:DO-214AC(SMA)" H 7975 1450 50  0001 C CNN
+F 3 "" H 7975 1450 50  0000 C CNN
+	1    7975 1450
+	0    1    1    0   
+$EndComp
+$Comp
+L D_Schottky D?
+U 1 1 58B127CE
+P 7725 1450
+F 0 "D?" H 7725 1550 50  0000 C CNN
+F 1 "D_Schottky" H 7725 1350 50  0000 C CNN
+F 2 "Yet-another-3d-printer-electronics:DO-214AC(SMA)" H 7725 1450 50  0001 C CNN
+F 3 "" H 7725 1450 50  0000 C CNN
+	1    7725 1450
+	0    1    1    0   
+$EndComp
+$Comp
+L CONN_01X04 P?
+U 1 1 58B127D5
+P 8900 2000
+F 0 "P?" H 8900 2250 50  0000 C CNN
+F 1 "Z-Motor" V 9000 2000 50  0000 C CNN
+F 2 "Connectors_JST:JST_XH_B04B-XH-A_04x2.50mm_Straight" H 8900 2000 50  0001 C CNN
+F 3 "" H 8900 2000 50  0000 C CNN
+	1    8900 2000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4325 3350 4300 3350
+$Comp
+L GND #PWR?
+U 1 1 58B127DD
+P 4325 3350
+F 0 "#PWR?" H 4325 3100 50  0001 C CNN
+F 1 "GND" H 4325 3200 50  0000 C CNN
+F 2 "" H 4325 3350 50  0000 C CNN
+F 3 "" H 4325 3350 50  0000 C CNN
+	1    4325 3350
+	0    -1   -1   0   
+$EndComp
+Connection ~ 3900 3350
+Wire Wire Line
+	4000 3350 3900 3350
+Wire Wire Line
+	3900 3275 3900 3350
+Wire Wire Line
+	3900 3350 3900 3525
+Wire Wire Line
+	3050 4575 3000 4575
+Wire Wire Line
+	3050 4675 3000 4675
+Wire Wire Line
+	3050 3925 3000 3925
+Connection ~ 3900 4850
+Wire Wire Line
+	3900 4850 3900 4900
+Connection ~ 4025 4850
+Wire Wire Line
+	4275 4850 4275 4775
+Connection ~ 3775 4850
+Wire Wire Line
+	4025 4850 4025 4775
+Wire Wire Line
+	3775 4850 3775 4775
+Wire Wire Line
+	3525 4850 3775 4850
+Wire Wire Line
+	3775 4850 3900 4850
+Wire Wire Line
+	3900 4850 4025 4850
+Wire Wire Line
+	4025 4850 4275 4850
+Wire Wire Line
+	3525 4775 3525 4850
+Connection ~ 4275 4375
+Wire Wire Line
+	4275 3825 4275 4375
+Wire Wire Line
+	4275 4375 4275 4475
+Connection ~ 4025 4275
+Wire Wire Line
+	4025 3825 4025 4275
+Wire Wire Line
+	4025 4275 4025 4475
+Connection ~ 3775 4175
+Wire Wire Line
+	3775 3825 3775 4175
+Wire Wire Line
+	3775 4175 3775 4475
+Wire Wire Line
+	3000 3825 3025 3825
+Wire Wire Line
+	3025 3825 3050 3825
+Connection ~ 3900 3525
+Connection ~ 3775 3525
+Connection ~ 4025 3525
+Wire Wire Line
+	3525 3525 3775 3525
+Wire Wire Line
+	3775 3525 3900 3525
+Wire Wire Line
+	3900 3525 4025 3525
+Wire Wire Line
+	4025 3525 4275 3525
+Connection ~ 3525 4075
+Wire Wire Line
+	3525 3825 3525 4075
+Wire Wire Line
+	3525 4075 3525 4475
+Wire Wire Line
+	4500 4375 4275 4375
+Wire Wire Line
+	4275 4375 3000 4375
+Wire Wire Line
+	3000 4275 4025 4275
+Wire Wire Line
+	4025 4275 4500 4275
+Wire Wire Line
+	3000 4175 3775 4175
+Wire Wire Line
+	3775 4175 4500 4175
+Wire Wire Line
+	3000 4075 3525 4075
+Wire Wire Line
+	3525 4075 4500 4075
+$Comp
+L C C?
+U 1 1 58B12803
+P 4150 3350
+F 0 "C?" H 4175 3450 50  0000 L CNN
+F 1 "10u/30V" H 4175 3250 50  0000 L CNN
+F 2 "Capacitors_SMD:C_1206_HandSoldering" H 4188 3200 50  0001 C CNN
+F 3 "" H 4150 3350 50  0000 C CNN
+	1    4150 3350
+	0    -1   -1   0   
+$EndComp
+$Comp
+L VCC #PWR?
+U 1 1 58B1280A
+P 3050 4575
+F 0 "#PWR?" H 3050 4425 50  0001 C CNN
+F 1 "VCC" V 2975 4700 50  0000 C CNN
+F 2 "" H 3050 4575 50  0000 C CNN
+F 3 "" H 3050 4575 50  0000 C CNN
+	1    3050 4575
+	0    1    1    0   
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 58B12810
+P 3050 4675
+F 0 "#PWR?" H 3050 4425 50  0001 C CNN
+F 1 "GND" H 3050 4525 50  0000 C CNN
+F 2 "" H 3050 4675 50  0000 C CNN
+F 3 "" H 3050 4675 50  0000 C CNN
+	1    3050 4675
+	0    -1   -1   0   
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 58B12816
+P 3050 3925
+F 0 "#PWR?" H 3050 3675 50  0001 C CNN
+F 1 "GND" H 3050 3775 50  0000 C CNN
+F 2 "" H 3050 3925 50  0000 C CNN
+F 3 "" H 3050 3925 50  0000 C CNN
+	1    3050 3925
+	0    -1   -1   0   
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 58B1281C
+P 3900 4900
+F 0 "#PWR?" H 3900 4650 50  0001 C CNN
+F 1 "GND" H 3900 4750 50  0000 C CNN
+F 2 "" H 3900 4900 50  0000 C CNN
+F 3 "" H 3900 4900 50  0000 C CNN
+	1    3900 4900
+	1    0    0    -1  
+$EndComp
+$Comp
+L +24V #PWR?
+U 1 1 58B12822
+P 3050 3825
+F 0 "#PWR?" H 3050 3675 50  0001 C CNN
+F 1 "+24V" H 3050 3965 50  0000 C CNN
+F 2 "" H 3050 3825 50  0000 C CNN
+F 3 "" H 3050 3825 50  0000 C CNN
+	1    3050 3825
+	0    1    1    0   
+$EndComp
+$Comp
+L +24V #PWR?
+U 1 1 58B12828
+P 3900 3275
+F 0 "#PWR?" H 3900 3125 50  0001 C CNN
+F 1 "+24V" H 3900 3415 50  0000 C CNN
+F 2 "" H 3900 3275 50  0000 C CNN
+F 3 "" H 3900 3275 50  0000 C CNN
+	1    3900 3275
+	1    0    0    -1  
+$EndComp
+$Comp
+L D_Schottky D?
+U 1 1 58B1282E
+P 3525 4625
+F 0 "D?" H 3525 4725 50  0000 C CNN
+F 1 "D_Schottky" H 3525 4525 50  0000 C CNN
+F 2 "Yet-another-3d-printer-electronics:DO-214AC(SMA)" H 3525 4625 50  0001 C CNN
+F 3 "" H 3525 4625 50  0000 C CNN
+	1    3525 4625
+	0    1    1    0   
+$EndComp
+$Comp
+L D_Schottky D?
+U 1 1 58B12835
+P 4275 4625
+F 0 "D?" H 4275 4725 50  0000 C CNN
+F 1 "D_Schottky" H 4275 4525 50  0000 C CNN
+F 2 "Yet-another-3d-printer-electronics:DO-214AC(SMA)" H 4275 4625 50  0001 C CNN
+F 3 "" H 4275 4625 50  0000 C CNN
+	1    4275 4625
+	0    1    1    0   
+$EndComp
+$Comp
+L D_Schottky D?
+U 1 1 58B1283C
+P 4025 4625
+F 0 "D?" H 4025 4725 50  0000 C CNN
+F 1 "D_Schottky" H 4025 4525 50  0000 C CNN
+F 2 "Yet-another-3d-printer-electronics:DO-214AC(SMA)" H 4025 4625 50  0001 C CNN
+F 3 "" H 4025 4625 50  0000 C CNN
+	1    4025 4625
+	0    1    1    0   
+$EndComp
+$Comp
+L D_Schottky D?
+U 1 1 58B12843
+P 3775 4625
+F 0 "D?" H 3775 4725 50  0000 C CNN
+F 1 "D_Schottky" H 3775 4525 50  0000 C CNN
+F 2 "Yet-another-3d-printer-electronics:DO-214AC(SMA)" H 3775 4625 50  0001 C CNN
+F 3 "" H 3775 4625 50  0000 C CNN
+	1    3775 4625
+	0    1    1    0   
+$EndComp
+$Comp
+L D_Schottky D?
+U 1 1 58B1284A
+P 4275 3675
+F 0 "D?" H 4275 3775 50  0000 C CNN
+F 1 "D_Schottky" H 4275 3575 50  0000 C CNN
+F 2 "Yet-another-3d-printer-electronics:DO-214AC(SMA)" H 4275 3675 50  0001 C CNN
+F 3 "" H 4275 3675 50  0000 C CNN
+	1    4275 3675
+	0    1    1    0   
+$EndComp
+$Comp
+L D_Schottky D?
+U 1 1 58B12851
+P 4025 3675
+F 0 "D?" H 4025 3775 50  0000 C CNN
+F 1 "D_Schottky" H 4025 3575 50  0000 C CNN
+F 2 "Yet-another-3d-printer-electronics:DO-214AC(SMA)" H 4025 3675 50  0001 C CNN
+F 3 "" H 4025 3675 50  0000 C CNN
+	1    4025 3675
+	0    1    1    0   
+$EndComp
+$Comp
+L D_Schottky D?
+U 1 1 58B12858
+P 3775 3675
+F 0 "D?" H 3775 3775 50  0000 C CNN
+F 1 "D_Schottky" H 3775 3575 50  0000 C CNN
+F 2 "Yet-another-3d-printer-electronics:DO-214AC(SMA)" H 3775 3675 50  0001 C CNN
+F 3 "" H 3775 3675 50  0000 C CNN
+	1    3775 3675
+	0    1    1    0   
+$EndComp
+$Comp
+L D_Schottky D?
+U 1 1 58B1285F
+P 3525 3675
+F 0 "D?" H 3525 3775 50  0000 C CNN
+F 1 "D_Schottky" H 3525 3575 50  0000 C CNN
+F 2 "Yet-another-3d-printer-electronics:DO-214AC(SMA)" H 3525 3675 50  0001 C CNN
+F 3 "" H 3525 3675 50  0000 C CNN
+	1    3525 3675
+	0    1    1    0   
+$EndComp
+$Comp
+L CONN_01X04 P?
+U 1 1 58B12866
+P 4700 4225
+F 0 "P?" H 4700 4475 50  0000 C CNN
+F 1 "Y-Motor" V 4800 4225 50  0000 C CNN
+F 2 "Connectors_JST:JST_XH_B04B-XH-A_04x2.50mm_Straight" H 4700 4225 50  0001 C CNN
+F 3 "" H 4700 4225 50  0000 C CNN
+	1    4700 4225
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4325 1125 4300 1125
+$Comp
+L GND #PWR?
+U 1 1 58B1286E
+P 4325 1125
+F 0 "#PWR?" H 4325 875 50  0001 C CNN
+F 1 "GND" H 4325 975 50  0000 C CNN
+F 2 "" H 4325 1125 50  0000 C CNN
+F 3 "" H 4325 1125 50  0000 C CNN
+	1    4325 1125
+	0    -1   -1   0   
+$EndComp
+Connection ~ 3900 1125
+Wire Wire Line
+	4000 1125 3900 1125
+Wire Wire Line
+	3900 1050 3900 1125
+Wire Wire Line
+	3900 1125 3900 1300
+Wire Wire Line
+	3050 2350 3000 2350
+Wire Wire Line
+	3050 2450 3000 2450
+Wire Wire Line
+	3050 1700 3000 1700
+Connection ~ 3900 2625
+Wire Wire Line
+	3900 2625 3900 2675
+Connection ~ 4025 2625
+Wire Wire Line
+	4275 2625 4275 2550
+Connection ~ 3775 2625
+Wire Wire Line
+	4025 2625 4025 2550
+Wire Wire Line
+	3775 2625 3775 2550
+Wire Wire Line
+	3525 2625 3775 2625
+Wire Wire Line
+	3775 2625 3900 2625
+Wire Wire Line
+	3900 2625 4025 2625
+Wire Wire Line
+	4025 2625 4275 2625
+Wire Wire Line
+	3525 2550 3525 2625
+Connection ~ 4275 2150
+Wire Wire Line
+	4275 1600 4275 2150
+Wire Wire Line
+	4275 2150 4275 2250
+Connection ~ 4025 2050
+Wire Wire Line
+	4025 1600 4025 2050
+Wire Wire Line
+	4025 2050 4025 2250
+Connection ~ 3775 1950
+Wire Wire Line
+	3775 1600 3775 1950
+Wire Wire Line
+	3775 1950 3775 2250
+Wire Wire Line
+	3000 1600 3025 1600
+Wire Wire Line
+	3025 1600 3050 1600
+Connection ~ 3900 1300
+Connection ~ 3775 1300
+Connection ~ 4025 1300
+Wire Wire Line
+	3525 1300 3775 1300
+Wire Wire Line
+	3775 1300 3900 1300
+Wire Wire Line
+	3900 1300 4025 1300
+Wire Wire Line
+	4025 1300 4275 1300
+Connection ~ 3525 1850
+Wire Wire Line
+	3525 1600 3525 1850
+Wire Wire Line
+	3525 1850 3525 2250
+Wire Wire Line
+	4500 2150 4275 2150
+Wire Wire Line
+	4275 2150 3000 2150
+Wire Wire Line
+	3000 2050 4025 2050
+Wire Wire Line
+	4025 2050 4500 2050
+Wire Wire Line
+	3000 1950 3775 1950
+Wire Wire Line
+	3775 1950 4500 1950
+Wire Wire Line
+	3000 1850 3525 1850
+Wire Wire Line
+	3525 1850 4500 1850
+$Comp
+L C C?
+U 1 1 58B12894
+P 4150 1125
+F 0 "C?" H 4175 1225 50  0000 L CNN
+F 1 "10u/30V" H 4175 1025 50  0000 L CNN
+F 2 "Capacitors_SMD:C_1206_HandSoldering" H 4188 975 50  0001 C CNN
+F 3 "" H 4150 1125 50  0000 C CNN
+	1    4150 1125
+	0    -1   -1   0   
+$EndComp
+$Comp
+L VCC #PWR?
+U 1 1 58B1289B
+P 3050 2350
+F 0 "#PWR?" H 3050 2200 50  0001 C CNN
+F 1 "VCC" V 2975 2475 50  0000 C CNN
+F 2 "" H 3050 2350 50  0000 C CNN
+F 3 "" H 3050 2350 50  0000 C CNN
+	1    3050 2350
+	0    1    1    0   
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 58B128A1
+P 3050 2450
+F 0 "#PWR?" H 3050 2200 50  0001 C CNN
+F 1 "GND" H 3050 2300 50  0000 C CNN
+F 2 "" H 3050 2450 50  0000 C CNN
+F 3 "" H 3050 2450 50  0000 C CNN
+	1    3050 2450
+	0    -1   -1   0   
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 58B128A7
+P 3050 1700
+F 0 "#PWR?" H 3050 1450 50  0001 C CNN
+F 1 "GND" H 3050 1550 50  0000 C CNN
+F 2 "" H 3050 1700 50  0000 C CNN
+F 3 "" H 3050 1700 50  0000 C CNN
+	1    3050 1700
+	0    -1   -1   0   
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 58B128AD
+P 3900 2675
+F 0 "#PWR?" H 3900 2425 50  0001 C CNN
+F 1 "GND" H 3900 2525 50  0000 C CNN
+F 2 "" H 3900 2675 50  0000 C CNN
+F 3 "" H 3900 2675 50  0000 C CNN
+	1    3900 2675
+	1    0    0    -1  
+$EndComp
+$Comp
+L +24V #PWR?
+U 1 1 58B128B3
+P 3050 1600
+F 0 "#PWR?" H 3050 1450 50  0001 C CNN
+F 1 "+24V" H 3050 1740 50  0000 C CNN
+F 2 "" H 3050 1600 50  0000 C CNN
+F 3 "" H 3050 1600 50  0000 C CNN
+	1    3050 1600
+	0    1    1    0   
+$EndComp
+$Comp
+L +24V #PWR?
+U 1 1 58B128B9
+P 3900 8025
+F 0 "#PWR?" H 3900 7875 50  0001 C CNN
+F 1 "+24V" H 3900 8165 50  0000 C CNN
+F 2 "" H 3900 8025 50  0000 C CNN
+F 3 "" H 3900 8025 50  0000 C CNN
+	1    3900 8025
+	1    0    0    -1  
+$EndComp
+$Comp
+L D_Schottky D?
+U 1 1 58B128BF
+P 3525 2400
+F 0 "D?" H 3525 2500 50  0000 C CNN
+F 1 "D_Schottky" H 3525 2300 50  0000 C CNN
+F 2 "Yet-another-3d-printer-electronics:DO-214AC(SMA)" H 3525 2400 50  0001 C CNN
+F 3 "" H 3525 2400 50  0000 C CNN
+	1    3525 2400
+	0    1    1    0   
+$EndComp
+$Comp
+L D_Schottky D?
+U 1 1 58B128C6
+P 4275 2400
+F 0 "D?" H 4275 2500 50  0000 C CNN
+F 1 "D_Schottky" H 4275 2300 50  0000 C CNN
+F 2 "Yet-another-3d-printer-electronics:DO-214AC(SMA)" H 4275 2400 50  0001 C CNN
+F 3 "" H 4275 2400 50  0000 C CNN
+	1    4275 2400
+	0    1    1    0   
+$EndComp
+$Comp
+L D_Schottky D?
+U 1 1 58B128CD
+P 4025 2400
+F 0 "D?" H 4025 2500 50  0000 C CNN
+F 1 "D_Schottky" H 4025 2300 50  0000 C CNN
+F 2 "Yet-another-3d-printer-electronics:DO-214AC(SMA)" H 4025 2400 50  0001 C CNN
+F 3 "" H 4025 2400 50  0000 C CNN
+	1    4025 2400
+	0    1    1    0   
+$EndComp
+$Comp
+L D_Schottky D?
+U 1 1 58B128D4
+P 3775 2400
+F 0 "D?" H 3775 2500 50  0000 C CNN
+F 1 "D_Schottky" H 3775 2300 50  0000 C CNN
+F 2 "Yet-another-3d-printer-electronics:DO-214AC(SMA)" H 3775 2400 50  0001 C CNN
+F 3 "" H 3775 2400 50  0000 C CNN
+	1    3775 2400
+	0    1    1    0   
+$EndComp
+$Comp
+L D_Schottky D?
+U 1 1 58B128DB
+P 4275 1450
+F 0 "D?" H 4275 1550 50  0000 C CNN
+F 1 "D_Schottky" H 4275 1350 50  0000 C CNN
+F 2 "Yet-another-3d-printer-electronics:DO-214AC(SMA)" H 4275 1450 50  0001 C CNN
+F 3 "" H 4275 1450 50  0000 C CNN
+	1    4275 1450
+	0    1    1    0   
+$EndComp
+$Comp
+L D_Schottky D?
+U 1 1 58B128E2
+P 4025 1450
+F 0 "D?" H 4025 1550 50  0000 C CNN
+F 1 "D_Schottky" H 4025 1350 50  0000 C CNN
+F 2 "Yet-another-3d-printer-electronics:DO-214AC(SMA)" H 4025 1450 50  0001 C CNN
+F 3 "" H 4025 1450 50  0000 C CNN
+	1    4025 1450
+	0    1    1    0   
+$EndComp
+$Comp
+L D_Schottky D?
+U 1 1 58B128E9
+P 3775 1450
+F 0 "D?" H 3775 1550 50  0000 C CNN
+F 1 "D_Schottky" H 3775 1350 50  0000 C CNN
+F 2 "Yet-another-3d-printer-electronics:DO-214AC(SMA)" H 3775 1450 50  0001 C CNN
+F 3 "" H 3775 1450 50  0000 C CNN
+	1    3775 1450
+	0    1    1    0   
+$EndComp
+$Comp
+L D_Schottky D?
+U 1 1 58B128F0
+P 3525 1450
+F 0 "D?" H 3525 1550 50  0000 C CNN
+F 1 "D_Schottky" H 3525 1350 50  0000 C CNN
+F 2 "Yet-another-3d-printer-electronics:DO-214AC(SMA)" H 3525 1450 50  0001 C CNN
+F 3 "" H 3525 1450 50  0000 C CNN
+	1    3525 1450
+	0    1    1    0   
+$EndComp
+Text Label 1700 1950 2    60   ~ 0
+X-MS3
+Text Label 1700 1850 2    60   ~ 0
+X-MS2
+Text Label 1700 1750 2    60   ~ 0
+X-MS1
+Text Label 5900 4325 2    60   ~ 0
+E-MS3
+Text Label 5900 4225 2    60   ~ 0
+E-MS2
+Text Label 5900 4125 2    60   ~ 0
+E-MS1
+Text Label 5900 1950 2    60   ~ 0
+Z-MS3
+Text Label 5900 1850 2    60   ~ 0
+Z-MS2
+Text Label 5900 1750 2    60   ~ 0
+Z-MS1
+Text Label 1700 4175 2    60   ~ 0
+Y-MS3
+Text Label 1700 4075 2    60   ~ 0
+Y-MS2
+Text Label 1700 3975 2    60   ~ 0
+Y-MS1
+$Comp
+L CONN_01X04 P?
+U 1 1 58B12903
+P 4700 2000
+F 0 "P?" H 4700 2250 50  0000 C CNN
+F 1 "X-Motor" V 4800 2000 50  0000 C CNN
+F 2 "Connectors_JST:JST_XH_B04B-XH-A_04x2.50mm_Straight" H 4700 2000 50  0001 C CNN
+F 3 "" H 4700 2000 50  0000 C CNN
+	1    4700 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L StepStick U?
+U 1 1 58B1290A
+P 6550 4425
+F 0 "U?" H 6250 5025 60  0000 C CNN
+F 1 "E-Stepstick" H 6450 3775 60  0000 C CNN
+F 2 "Yet-another-3d-printer-electronics:stepstick_socket" H 6550 4425 60  0001 C CNN
+F 3 "" H 6550 4425 60  0000 C CNN
+	1    6550 4425
+	1    0    0    -1  
+$EndComp
+$Comp
+L StepStick U?
+U 1 1 58B12911
+P 6550 2050
+F 0 "U?" H 6250 2650 60  0000 C CNN
+F 1 "Z-Stepstick" H 6450 1400 60  0000 C CNN
+F 2 "Yet-another-3d-printer-electronics:stepstick_socket" H 6550 2050 60  0001 C CNN
+F 3 "" H 6550 2050 60  0000 C CNN
+	1    6550 2050
+	1    0    0    -1  
+$EndComp
+$Comp
+L StepStick U?
+U 1 1 58B12918
+P 2350 4275
+F 0 "U?" H 2050 4875 60  0000 C CNN
+F 1 "Y-Stepstick" H 2250 3625 60  0000 C CNN
+F 2 "Yet-another-3d-printer-electronics:stepstick_socket" H 2350 4275 60  0001 C CNN
+F 3 "" H 2350 4275 60  0000 C CNN
+	1    2350 4275
+	1    0    0    -1  
+$EndComp
+$Comp
+L StepStick U?
+U 1 1 58B1291F
+P 2350 2050
+F 0 "U?" H 2050 2650 60  0000 C CNN
+F 1 "X-Stepstick" H 2250 1400 60  0000 C CNN
+F 2 "Yet-another-3d-printer-electronics:stepstick_socket" H 2350 2050 60  0001 C CNN
+F 3 "" H 2350 2050 60  0000 C CNN
+	1    2350 2050
+	1    0    0    -1  
+$EndComp
+Text HLabel 1575 1600 0    60   Input ~ 0
+XYE_ENABLE
+Text HLabel 1575 3825 0    60   Input ~ 0
+XYE_ENABLE
+Text HLabel 5775 3975 0    60   Input ~ 0
+XYE_ENABLE
+Text HLabel 5725 1600 0    60   Input ~ 0
+Z_ENABLE
+Text HLabel 1700 2400 0    60   Input ~ 0
+X-STEP
+Text HLabel 1700 2500 0    60   Input ~ 0
+X-DIR
+Text HLabel 5900 2400 0    60   Input ~ 0
+Z-STEP
+Text HLabel 5900 2500 0    60   Input ~ 0
+Z-DIR
+Text HLabel 1700 4625 0    60   Input ~ 0
+Y-STEP
+Text HLabel 1700 4725 0    60   Input ~ 0
+Y-DIR
+Text HLabel 5900 4775 0    60   Input ~ 0
+E-STEP
+Text HLabel 5900 4875 0    60   Input ~ 0
+E-DIR
+$EndSCHEMATC
