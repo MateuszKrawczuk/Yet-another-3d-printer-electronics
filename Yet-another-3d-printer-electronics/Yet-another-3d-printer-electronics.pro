@@ -1,4 +1,4 @@
-update=2017-02-08 19:19:43
+update=25.02.2017 01:29:47
 version=1
 last_client=kicad
 [pcbnew]
@@ -61,3 +61,4 @@ LibName29=atmel
 LibName30=contrib
 LibName31=valves
 LibName32=ftdi
+LibName33=aoz1284pi
