@@ -1,0 +1,284 @@
+EESchema Schematic File Version 2
+LIBS:Yet-another-3d-printer-electronics-rescue
+LIBS:nxp_armmcu
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:ftdi
+LIBS:aoz1284pi
+LIBS:ap1501
+LIBS:Yet-another-3d-printer-electronics-cache
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 6 6
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L CONN_01X03 P?
+U 1 1 58FE0F8F
+P 1525 2325
+F 0 "P?" H 1525 2525 50  0000 C CNN
+F 1 "X-ENDSTOP" V 1625 2325 50  0000 C CNN
+F 2 "Connectors_JST:JST_XH_B03B-XH-A_03x2.50mm_Straight" H 1525 2325 50  0001 C CNN
+F 3 "" H 1525 2325 50  0000 C CNN
+	1    1525 2325
+	-1   0    0    1   
+$EndComp
+$Comp
+L CONN_01X03 P?
+U 1 1 58FE0F96
+P 1500 3050
+F 0 "P?" H 1500 3250 50  0000 C CNN
+F 1 "Y-ENDSTOP" V 1600 3050 50  0000 C CNN
+F 2 "Connectors_JST:JST_XH_B03B-XH-A_03x2.50mm_Straight" H 1500 3050 50  0001 C CNN
+F 3 "" H 1500 3050 50  0000 C CNN
+	1    1500 3050
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	1725 2225 2250 2225
+$Comp
+L +5V #PWR?
+U 1 1 58FE125F
+P 2250 1850
+F 0 "#PWR?" H 2250 1700 50  0001 C CNN
+F 1 "+5V" H 2250 1990 50  0000 C CNN
+F 2 "" H 2250 1850 50  0001 C CNN
+F 3 "" H 2250 1850 50  0001 C CNN
+	1    2250 1850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2250 1850 2250 4250
+Wire Wire Line
+	2250 2950 1700 2950
+Connection ~ 2250 2225
+$Comp
+L GND #PWR?
+U 1 1 58FE131D
+P 1950 4375
+F 0 "#PWR?" H 1950 4125 50  0001 C CNN
+F 1 "GND" H 1950 4225 50  0000 C CNN
+F 2 "" H 1950 4375 50  0000 C CNN
+F 3 "" H 1950 4375 50  0000 C CNN
+	1    1950 4375
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1950 2325 1950 4375
+Wire Wire Line
+	1950 3050 1700 3050
+Wire Wire Line
+	1725 2325 1950 2325
+Connection ~ 1950 3050
+$Comp
+L CONN_01X03 P?
+U 1 1 58FE139B
+P 1500 3800
+F 0 "P?" H 1500 4000 50  0000 C CNN
+F 1 "Z-ENDSTOP" V 1600 3800 50  0000 C CNN
+F 2 "Connectors_JST:JST_XH_B03B-XH-A_03x2.50mm_Straight" H 1500 3800 50  0001 C CNN
+F 3 "" H 1500 3800 50  0000 C CNN
+	1    1500 3800
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	2250 3700 1700 3700
+Connection ~ 2250 2950
+Wire Wire Line
+	1700 3800 1950 3800
+Connection ~ 1950 3800
+Wire Wire Line
+	1700 3150 2375 3150
+Wire Wire Line
+	1725 2425 2375 2425
+$Comp
+L R R?
+U 1 1 58FE15AF
+P 2525 2425
+F 0 "R?" V 2605 2425 50  0000 C CNN
+F 1 "R" V 2525 2425 50  0000 C CNN
+F 2 "" V 2455 2425 50  0001 C CNN
+F 3 "" H 2525 2425 50  0001 C CNN
+	1    2525 2425
+	0    1    1    0   
+$EndComp
+$Comp
+L R R?
+U 1 1 58FE1633
+P 2525 3150
+F 0 "R?" V 2605 3150 50  0000 C CNN
+F 1 "R" V 2525 3150 50  0000 C CNN
+F 2 "" V 2455 3150 50  0001 C CNN
+F 3 "" H 2525 3150 50  0001 C CNN
+	1    2525 3150
+	0    1    1    0   
+$EndComp
+$Comp
+L R R?
+U 1 1 58FE168B
+P 2525 3900
+F 0 "R?" V 2605 3900 50  0000 C CNN
+F 1 "R" V 2525 3900 50  0000 C CNN
+F 2 "" V 2455 3900 50  0001 C CNN
+F 3 "" H 2525 3900 50  0001 C CNN
+	1    2525 3900
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2375 3900 1700 3900
+Wire Wire Line
+	2675 2425 2850 2425
+Wire Wire Line
+	2850 3150 2675 3150
+Wire Wire Line
+	2850 3900 2675 3900
+Wire Wire Line
+	2750 2425 2750 2475
+Connection ~ 2750 2425
+$Comp
+L C C?
+U 1 1 58FE1A07
+P 2750 2625
+F 0 "C?" H 2775 2725 50  0000 L CNN
+F 1 "C" H 2775 2525 50  0000 L CNN
+F 2 "" H 2788 2475 50  0001 C CNN
+F 3 "" H 2750 2625 50  0001 C CNN
+	1    2750 2625
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2750 2775 2750 2825
+$Comp
+L C C?
+U 1 1 58FE1A8F
+P 2750 3350
+F 0 "C?" H 2775 3450 50  0000 L CNN
+F 1 "C" H 2775 3250 50  0000 L CNN
+F 2 "" H 2788 3200 50  0001 C CNN
+F 3 "" H 2750 3350 50  0001 C CNN
+	1    2750 3350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2750 3200 2750 3150
+Connection ~ 2750 3150
+$Comp
+L C C?
+U 1 1 58FE1B15
+P 2750 4100
+F 0 "C?" H 2775 4200 50  0000 L CNN
+F 1 "C" H 2775 4000 50  0000 L CNN
+F 2 "" H 2788 3950 50  0001 C CNN
+F 3 "" H 2750 4100 50  0001 C CNN
+	1    2750 4100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2750 3950 2750 3900
+Connection ~ 2750 3900
+$Comp
+L GND #PWR?
+U 1 1 58FE1C0C
+P 2750 2825
+F 0 "#PWR?" H 2750 2575 50  0001 C CNN
+F 1 "GND" H 2750 2675 50  0000 C CNN
+F 2 "" H 2750 2825 50  0001 C CNN
+F 3 "" H 2750 2825 50  0001 C CNN
+	1    2750 2825
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 58FE1C39
+P 2750 3550
+F 0 "#PWR?" H 2750 3300 50  0001 C CNN
+F 1 "GND" H 2750 3400 50  0000 C CNN
+F 2 "" H 2750 3550 50  0001 C CNN
+F 3 "" H 2750 3550 50  0001 C CNN
+	1    2750 3550
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 58FE1C5F
+P 2750 4300
+F 0 "#PWR?" H 2750 4050 50  0001 C CNN
+F 1 "GND" H 2750 4150 50  0000 C CNN
+F 2 "" H 2750 4300 50  0001 C CNN
+F 3 "" H 2750 4300 50  0001 C CNN
+	1    2750 4300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2750 4300 2750 4250
+Wire Wire Line
+	2750 3550 2750 3500
+Connection ~ 2250 3700
+$Comp
+L C C?
+U 1 1 58FE1D8F
+P 2100 4050
+F 0 "C?" H 2125 4150 50  0000 L CNN
+F 1 "C" H 2125 3950 50  0000 L CNN
+F 2 "" H 2138 3900 50  0001 C CNN
+F 3 "" H 2100 4050 50  0001 C CNN
+	1    2100 4050
+	0    1    1    0   
+$EndComp
+Connection ~ 2250 4050
+$Comp
+L C C?
+U 1 1 58FE1E35
+P 2100 4250
+F 0 "C?" H 2125 4350 50  0000 L CNN
+F 1 "C" H 2125 4150 50  0000 L CNN
+F 2 "" H 2138 4100 50  0001 C CNN
+F 3 "" H 2100 4250 50  0001 C CNN
+	1    2100 4250
+	0    1    1    0   
+$EndComp
+Connection ~ 1950 4050
+Connection ~ 1950 4250
+Text HLabel 2850 2425 2    60   UnSpc ~ 0
+ENDSTOP-X
+Text HLabel 2850 3150 2    60   UnSpc ~ 0
+ENDSTOP-Y
+Text HLabel 2850 3900 2    60   UnSpc ~ 0
+ENDSTOP-Z
+$EndSCHEMATC
