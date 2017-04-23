@@ -483,13 +483,14 @@ Connection ~ 5675 5225
 Wire Wire Line
 	5575 5225 5775 5225
 $Sheet
-S 3100 3825 575  325 
+S 3075 3825 600  400 
 U 58B2ADB1
 F0 "Heaters_and_fan" 60
 F1 "Heaters and Fan.sch" 60
 F2 "HEAT_BED" I R 3675 4075 60 
 F3 "HEAT_EXT" I R 3675 3975 60 
 F4 "FAN" I R 3675 3875 60 
+F5 "USER_FAN" I R 3675 4175 60 
 $EndSheet
 Wire Wire Line
 	3675 3975 4475 3975
@@ -527,7 +528,7 @@ F 3 "" H 4150 2275 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Sheet
-S 2400 4275 1275 375 
+S 2425 4325 1250 300 
 U 58FE0CB7
 F0 "Endstops" 60
 F1 "Endstops.sch" 60
@@ -610,4 +611,11 @@ Text Label 6875 3625 0    60   ~ 0
 LCD_Enable
 Text Label 6875 3725 0    60   ~ 0
 Buzzer
+Wire Wire Line
+	4475 4175 3675 4175
+NoConn ~ 4475 2725
+NoConn ~ 4475 2925
+NoConn ~ 4475 3725
+NoConn ~ 4475 4275
+NoConn ~ 4475 3225
 $EndSCHEMATC
