@@ -541,4 +541,73 @@ Wire Wire Line
 	3675 4475 4475 4475
 Wire Wire Line
 	4475 4375 3675 4375
+$Comp
+L CONN_02X05 J?
+U 1 1 58FE5CD4
+P 9125 5700
+F 0 "J?" H 9125 6000 50  0000 C CNN
+F 1 "LCD_Connector" H 9175 5400 50  0000 C CNN
+F 2 "" H 9125 4500 50  0001 C CNN
+F 3 "" H 9125 4500 50  0001 C CNN
+	1    9125 5700
+	1    0    0    1   
+$EndComp
+$Comp
+L +5V #PWR?
+U 1 1 58FE5EAC
+P 8800 5500
+F 0 "#PWR?" H 8800 5350 50  0001 C CNN
+F 1 "+5V" H 8800 5640 50  0000 C CNN
+F 2 "" H 8800 5500 50  0001 C CNN
+F 3 "" H 8800 5500 50  0001 C CNN
+	1    8800 5500
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 58FE5F48
+P 9775 5500
+F 0 "#PWR?" H 9775 5250 50  0001 C CNN
+F 1 "GND" H 9775 5350 50  0000 C CNN
+F 2 "" H 9775 5500 50  0001 C CNN
+F 3 "" H 9775 5500 50  0001 C CNN
+	1    9775 5500
+	1    0    0    -1  
+$EndComp
+Text Label 9375 5900 0    60   ~ 0
+Buzzer
+Text Label 8875 5900 2    60   ~ 0
+Encoder
+Text Label 9375 5800 0    60   ~ 0
+LCD_Enable
+Text Label 8875 5800 2    60   ~ 0
+LCD_RS
+Text Label 9375 5600 0    60   ~ 0
+LCD_6
+Text Label 9375 5700 0    60   ~ 0
+LCD_4
+Text Label 8875 5600 2    60   ~ 0
+LCD_8
+Text Label 8875 5700 2    60   ~ 0
+LCD_5
+Wire Wire Line
+	9375 5500 9775 5500
+Wire Wire Line
+	8875 5500 8800 5500
+Text Label 6875 2825 0    60   ~ 0
+Encoder
+Text Label 6875 2925 0    60   ~ 0
+LCD_RS
+Text Label 6875 3025 0    60   ~ 0
+LCD_5
+Text Label 6875 3125 0    60   ~ 0
+LCD_8
+Text Label 6875 3425 0    60   ~ 0
+LCD_6
+Text Label 6875 3525 0    60   ~ 0
+LCD_4
+Text Label 6875 3625 0    60   ~ 0
+LCD_Enable
+Text Label 6875 3725 0    60   ~ 0
+Buzzer
 $EndSCHEMATC
