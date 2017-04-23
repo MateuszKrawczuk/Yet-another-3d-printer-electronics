@@ -32,6 +32,7 @@ LIBS:contrib
 LIBS:valves
 LIBS:ftdi
 LIBS:aoz1284pi
+LIBS:ap1501
 LIBS:Yet-another-3d-printer-electronics-cache
 EELAYER 25 0
 EELAYER END
